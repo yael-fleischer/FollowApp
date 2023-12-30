@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upload Video</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            width: 300px;
+            background: whitesmoke; 
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #fileInput {
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border: none;
+            background-color: #fff;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #uploadButton {
+            padding: 10px 15px;
+            border: none;
+            background-color: #44b1da;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        #uploadButton:hover {
+            background-color: #2a90b5;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        #status {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        img {
+            width: 30%; 
+            max-height: 80px; 
+            margin-bottom: 20px;
+}
+
+
+
+    </style>
+</head>
+
+<body>
+    <img src="LOGO.png" alt="Company Logo"> 
+    <h2>Upload a Video File</h2>
+    <input type="file" id="fileInput" accept=".mp4">
+    <button id="uploadButton">Upload and Transcribe</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
