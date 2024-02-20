@@ -11,8 +11,8 @@ The idea emerged from our daily challenges in managing team communication and ta
 <b>server.js:</b> Backend script managing file uploads, audio extraction using FFmpeg, transcription with Google Speech to Text, and summary creation via OpenAI's ChatGPT.
 
 <h3>Integrations:</h3>
-<b>Google Cloud Storage API:</b> Used for uploading audio files and storing transcripts and summaries.
-<b>Google Cloud Speech to Text API:</b> Transcribes audio files.
+<b>Google Cloud Storage API:</b> Used for uploading audio files and storing transcripts and summaries.<br>
+<b>Google Cloud Speech to Text API:</b> Transcribes audio files.<br>
 <b>OpenAI API:</b> Summarizes transcripts using the gpt-3.5-turbo model for optimal results.
 
 <h3>Security and Server Setup:</h3> 
