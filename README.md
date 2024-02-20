@@ -5,9 +5,9 @@ FollowApp is an innovative Chrome Extension designed to streamline the workflow 
 The idea emerged from our daily challenges in managing team communication and tasks in a global work environment. The application saves significant time in summarizing meetings and understanding follow-up tasks, particularly when conversations occur in foreign languages.
 
 <h3>Core Files:</h3>
-<u>Manifest.json:</u> Metadata and basic settings of the extension.
-<u>popup.js:</u> Manages user interactions and file uploads to the local server for processing.
-<u>popup.html:</u> Provides the visual interface for file upload and feedback.
+<u>Manifest.json:</u> Metadata and basic settings of the extension.<br>
+<u>popup.js:</u> Manages user interactions and file uploads to the local server for processing.<br>
+<u>popup.html:</u> Provides the visual interface for file upload and feedback.<br>
 <u>server.js:</u> Backend script managing file uploads, audio extraction using FFmpeg, transcription with Google Speech to Text, and summary creation via OpenAI's ChatGPT.
 
 <h3>Integrations:</h3>
