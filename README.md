@@ -11,10 +11,12 @@ The idea emerged from our daily challenges in managing team communication and ta
 <b>server.js:</b> Backend script managing file uploads, audio extraction using FFmpeg, transcription with Google Speech to Text, and summary creation via OpenAI's ChatGPT.
 
 <h3>Integrations:</h3>
-Google Cloud Storage API: Used for uploading audio files and storing transcripts and summaries.
-Google Cloud Speech to Text API: Transcribes audio files.
-OpenAI API: Summarizes transcripts using the gpt-3.5-turbo model for optimal results.
-Security and Server Setup: Adapted to Chrome Extension V3 standards for enhanced security and use of Server Workers. Separate keys for Google and OpenAI integrations ensure user-side protection.
+<b>Google Cloud Storage API:</b> Used for uploading audio files and storing transcripts and summaries.
+<b>Google Cloud Speech to Text API:</b> Transcribes audio files.
+<b>OpenAI API:</b> Summarizes transcripts using the gpt-3.5-turbo model for optimal results.
+
+<h3>Security and Server Setup:</h3> 
+Adapted to Chrome Extension V3 standards for enhanced security and use of Server Workers. Separate keys for Google and OpenAI integrations ensure user-side protection.
 
 <h3>Key Features:</h3>
 Automated video call transcription and summarization.
@@ -22,5 +24,5 @@ Integration with Google Cloud and OpenAI for reliable and efficient processing.
 User-friendly Chrome Extension interface for easy operation.
 
 <h3>Future Developments:</h3>
-Enhancing the user interface for a more interactive experience.
-Implementing additional security measures for data protection.
+1. Enhancing the user interface for a more interactive experience.<br>
+2. Implementing additional security measures for data protection.
